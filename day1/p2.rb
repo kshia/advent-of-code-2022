@@ -1,0 +1,1 @@
+puts File.read("input.txt").split("\n\n").map{|load| load.split.map(&:to_i).sum}.max(3).sum
